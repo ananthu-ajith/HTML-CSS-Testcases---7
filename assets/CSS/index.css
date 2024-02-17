@@ -194,7 +194,7 @@ main
 
 .mb2 span
 {
-    font-family: cursive;
+    font-family:  cursive;
     font-size: 60px;
     color: white;
     font-weight: 500;
@@ -295,20 +295,20 @@ main
 
 .available
 {
-    height: 60vh;
+    height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 
 
 }
 
 .avail1
 {
-    height: 60%;
+    height: 70%;
     width: 22%;
     background-color: rgba(61, 175, 175, 0.1);
     text-align: center;
@@ -335,16 +335,17 @@ main
 
 .aboutus
 {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
-    padding: 20vh 10%;
+    padding: 0 6%;
     display: flex;
+    align-items: center;
 }
 
 .auimg
 {
     width: 50%;
-    height: 60vh;
+    height: 100%;
 }
 
 .auimg img
@@ -358,8 +359,7 @@ main
 .audesc
 {
     width: 50%;
-    height: 60vh;
-    /* background-color: blue; */
+    height: auto;
 }
 
 .abus1
@@ -404,7 +404,451 @@ main
 }
 .abus2 h1
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     font-size: 40px;
     margin: 20px 0;
+}
+
+
+.abus3
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.abuslistleft
+{
+    height: auto;
+    width: auto;
+}
+
+.abuslistleft ul
+{
+    height: auto;
+    width: auto;
+    list-style: none;
+    margin: 30px 0;
+    margin-left: 20px;
+    
+}
+
+.abuslistleft ul li
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 15px 0;
+}
+
+
+.abuslistleft ul li::before 
+{
+    content: '';
+    background-image: url(../Images/arrow-pointing-to-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 20px;
+    width: 15px;
+    left: -20px;
+}
+
+.abusbutton
+{
+    height: 60px;
+    width: 180px;
+    margin-right: 10px;
+    font-size: large;
+    border: 0;
+    background-color: rgb(17, 201, 201);
+}
+
+
+.categories
+{
+    height: 100vh;
+    width: 100%;
+    padding: 0 6%;
+}
+
+.cgsheading
+{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+.cgshead
+{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.cgshead span
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: large;
+    color: rgb(17, 201, 201);
+}
+
+
+.cgsheading div h1
+{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.bln
+{
+    width: 70px;
+    height: 12px;
+    border-bottom: 2px solid rgb(17, 201, 201);
+    border-top: 2px solid rgb(17, 201, 201);
+}
+
+.sln
+{
+    height: 12px;
+    width: 30px;
+    border-bottom: 2px solid rgb(17, 201, 201);
+}
+
+
+.cgsimg
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+
+.cgsl
+{
+    height: 70vh;
+    width: 60%;
+}
+
+.cgsr
+{
+    height: 70vh;
+    width: 40%;
+    background-color: rgb(40, 68, 68);
+    background-image: url(../Images/marketing.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.cgsltop
+{
+    height: 48%;
+    width: 100%;
+    margin-bottom:2.8vh;
+    background-image: url(../Images/web\ develop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.cgslbtm
+{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.coursedet
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    width: 180px;
+    height: 70px;
+    margin: 2px;
+}
+
+.coursedet h3
+{
+    margin: 10px auto;
+
+}
+
+.coursedet span
+{
+    color: rgb(17, 201, 201);
+
+}
+
+.cgbtl
+{
+    background-image: url(../Images/graphic\ design.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 49%;
+    position: relative;
+}
+
+.cgbtr
+{
+    background-image: url(../Images/video\ editing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 48%;
+    position: relative;
+}
+
+
+.populardet
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popdet
+{
+    height: 70vh;
+    width: 30%;
+    background-color: rgba(61, 175, 175, 0.1);
+}
+
+.ppdetimg
+{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ppimover
+{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(17, 201, 201);
+    border-radius: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+}
+
+.imovl
+{
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid rgba(255, 255, 255,0.6) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imovl span
+{
+    color: white;
+}
+
+.imovr
+{
+    height: 100%;
+    width: 50%;
+    border-left: 1px solid rgba(255, 255, 255,0.6) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imovr span
+{
+    color: white;
+}
+
+.ppimdt
+{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(140, 207, 207, 0.1);
+    text-align: center;
+}
+
+.ppimdt h1
+{
+    padding-top: 20px;
+}
+
+.ppimdt h3
+{
+    padding-top: 20px;
+}
+
+.ppimdt p span
+{
+font-size: large;
+color: rgb(17, 201, 201);
+}
+
+
+.ppdetimg2
+{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+.ppdetimg3
+{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+.instructor
+{
+    height: 80vh;
+}
+
+.instr
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instrdet
+{
+    height: 50vh;
+    width: 20%;
+    background-color: rgba(140, 207, 207, 0.1);
+}
+
+.ipht1
+{
+    height: 70%;
+    width: 100%;
+    background-color: azure;
+    background-image: url(https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.incnt
+{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f3fafa;
+}
+
+.fb
+{
+    height: 80%;
+    width: 22%;
+    background-image: url(../Images/facebook\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.instm
+{
+    height: 80%;
+    width: 22%;
+    background-image: url(../Images/instagram\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.twt
+{
+    height: 80%;
+    width: 22%;
+    background-image: url(../Images/twitter-sign.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.detinst
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ipht2
+{
+    height: 70%;
+    width: 100%;
+    background-color: azure;
+    background-image: url(https://images.pexels.com/photos/8617763/pexels-photo-8617763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.ipht3
+{
+    height: 70%;
+    width: 100%;
+    background-color: azure;
+    background-image: url(https://images.pexels.com/photos/8617942/pexels-photo-8617942.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.ipht4
+{
+    height: 70%;
+    width: 100%;
+    background-color: azure;
+    background-image: url(https://images.pexels.com/photos/8197542/pexels-photo-8197542.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
 }
