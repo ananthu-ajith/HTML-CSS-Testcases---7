@@ -852,3 +852,120 @@ color: rgb(17, 201, 201);
     position: relative;
 
 }
+
+.testm
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testm1
+{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.testmimg
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid rgba(128, 127, 127,0.5);
+    margin: 10px auto;
+}
+
+.testmimg img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testm1 div h1
+{
+    font-weight: normal;
+}
+
+.testimdesc
+{
+    margin-top: 30px;
+}
+
+.testm2
+{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.testm3
+{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.testm2 .testimdesc
+{
+    background-color: rgb(17, 201, 201);
+    color: white;
+    padding: 30px 15px;
+}
+
+.testm1 .testimdesc, .testm3 .testimdesc
+{
+    padding: 30px 15px;
+    background-color: rgba(140, 207, 207, 0.1);
+}
+
+
+.fader::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white); 
+  }
+
+
+  .fadel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white); 
+  }
+
+  .choose
+{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose1
+{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin: 5px 10px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+}
+
+.chooseb
+{
+    background-color: rgb(17, 201, 201);
+}
