@@ -969,3 +969,299 @@ color: rgb(17, 201, 201);
 {
     background-color: rgb(17, 201, 201);
 }
+
+footer
+{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(18, 18, 54);
+    color: white;
+    padding: 0 6%;
+}
+
+.fttop
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-bottom: 1px solid rgba(128, 128, 128,0.2);
+    padding-top: 10vh;
+}
+
+.ftdesc
+{
+    height: auto;
+    width: auto;
+}
+
+.ftql ul
+{
+   list-style-type: none;
+}
+
+.ftql ul li
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ftql ul li::before
+{
+    content: '';
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    transform: rotate(-45deg) translateY(-50%);
+    top: 50%;
+    left: -10px;
+}
+
+
+.ftcnt ul
+{
+    list-style-type: none;
+}
+
+.ftcnt ul li
+{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ftcnt ul li:nth-child(1)::before
+{
+    content: '';
+    background-image:url('../Images/maps-and-flags\ \(1\).png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.ftcnt ul li:nth-child(2)::before
+{
+    content: '';
+    background-image:url('../Images/phone-call.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+.ftcnt ul li:nth-child(3)::before
+{
+    content: '';
+    background-image:url('../Images/email.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+
+
+.glrtp
+{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.glrtp div
+{
+    height: 50px;
+    width: 80px;
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+
+.glrbt
+{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.glrbt div
+{
+    height: 50px;
+    width: 80px;
+    background-image: url(https://images.pexels.com/photos/2080960/pexels-photo-2080960.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-position: center;
+    background-size: cover;
+}
+
+.ftnews
+{
+    width: 300px;
+}
+
+.ftnews p
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ftnews div
+{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftnews div input
+{
+    width: 70%;
+    height: 100%;
+    border: 0;
+    font-size: large;
+    border: 0;
+    outline: none;
+}
+
+.ftnews div button
+{
+    width: 25%;
+    height: 40px;
+    border: 0;
+    background-color: rgb(17, 201, 201);
+    color: white;
+    font-size: large;
+}
+
+footer h1
+{
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.ftrbt
+{
+    height: 10vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ftrbtr
+{
+    height: auto;
+    width: auto;
+
+}
+.ftrbtr ul
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    list-style-type: none;
+}
+
+.ftrbtr ul li
+{
+    padding: 0 20px;
+    border-right: 1px solid rgba(128, 128, 128,0.2);
+}
+
+.ftrbtr ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.ftctnim
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.fttwt
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+.fttwt img
+{
+    height: 20px;
+    width: 20px;
+}
+
+.ftfb
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+.ftfb img
+{
+    height: 20px;
+    width: 20px;
+}
+
+.ftyt
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+.ftyt img
+{
+    height: 20px;
+    width: 20px;
+}
+
+.ftlin
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+.ftlin img
+{
+    height: 20px;
+    width: 20px;
+}
