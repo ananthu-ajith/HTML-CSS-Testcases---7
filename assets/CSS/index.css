@@ -26,11 +26,11 @@ header
 {
     height: auto;
     width: auto;
-    /* margin: 10px; */
     margin-left: 40px;
     margin-top: auto;
     margin-bottom: auto;
 }
+
 
 .logo img
 {
@@ -62,7 +62,7 @@ header
     align-items: center;
 }
 
-.righth ul
+.righth>ul
 {
     display: flex;
     list-style-type: none;
@@ -82,7 +82,7 @@ header
     font-weight: 550;
 }
 
-.righth ul li :hover
+.righth>ul>li :hover
 {
    color: rgb(17, 201, 201);
    border-color: rgb(17, 201, 201);
@@ -112,12 +112,12 @@ header
 
 .headerjoin a
 {
-    /* margin: auto 60px; */
     text-decoration: none;
     color: white;
     font-size: large;
     margin-left: 40px;
     margin-right: 15px;
+    height: auto;
 }
 
 .joinarrow
@@ -692,6 +692,7 @@ main
     width: 100%;
     background-color: rgba(140, 207, 207, 0.1);
     text-align: center;
+    position: relative;
 }
 
 .ppimdt h1
@@ -1265,3 +1266,273 @@ footer h1
     height: 20px;
     width: 20px;
 }
+
+@media screen and (min-width: 400px) and (max-width:900px)
+{
+
+    header
+    {
+        display: block;
+        height: 15vh;
+        overflow-y: scroll;
+    }
+
+    .logo 
+    {
+        margin: 0;
+    }
+    .logodesc
+    {
+        margin: 0;
+    }
+    .righth
+    {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .righth ul
+    {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    }
+
+    .righth ul li
+    {
+    margin:5px ;
+    display: flex;
+    align-items: center;
+    }
+
+    .joinarrow
+    {
+        display: none;
+    }
+
+    .available
+    {
+        height: auto;
+        display: block;
+        padding: 0;
+    }
+
+    .avail1
+    {
+        height: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .aboutus
+    {
+        height: auto;
+        display: grid;
+        grid-template-rows: auto auto;
+        padding: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .aboutus>div:nth-child(1)
+    {
+        grid-row: 2;
+    }
+
+    .aboutus>div:nth-child(2)
+    {
+        grid-row: 1;
+    }
+
+    .audesc,.auimg,.auimg img
+    {
+        width: 100%;
+    }
+
+    .categories
+    {
+        height: auto;
+        padding: 0;
+    }
+
+
+    .cgsimg,.cgsl,.cgslbtm,.cgsr,.cgbtl,.cgbtr
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .cgsltop,.cgsr,.cgbtl,.cgbtr
+    {
+        height: 25vh;
+        margin-bottom: 15px;
+    }
+
+    .cgsl,.cgslbtm
+    {
+        height: auto;
+    }
+
+    .cgsheading
+    {
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .populardet
+    {
+        height: auto;
+        display: block;
+    }
+
+    .popdet
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        height: 50vh;
+    }
+
+    .instr
+    {
+        display: block;
+    }
+
+    .instrdet
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    footer
+    {
+        height: auto;
+    }
+    .fttop
+    {
+        height: auto;
+        display: inline-block;
+    }
+
+    .ftdesc
+    {
+        margin-bottom: 20px;
+    }
+    .fbarrow
+    {
+    top: 95%;
+    left: 0;
+    transform: translateY(-100%);
+    display: flex;
+    height: auto;
+    width: auto;
+    }
+
+    .fbf
+    {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .mainb
+    {
+        padding: 0;
+        width: 100%;
+    }
+
+    main
+    {
+        overflow: auto;
+    }
+
+
+}
+
+.jhnd
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.jhnd>div
+{
+    width: 33.333333%;
+    border-top: 1px solid rgba(0, 0, 0,0.2);
+    height: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jhnnm
+{
+    height: 15px;
+    width: 15px;
+    background-image: url(../Images/man-in-suit-and-tie\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.jhntm
+{
+    height: 15px;
+    width: 15px;
+    background-image: url(../Images/time.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+.jhnst
+{
+    height: 15px;
+    width: 15px;
+    background-image: url(../Images/user.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+.jhn2
+{
+    border-left: 1px solid rgba(0, 0, 0,0.2);
+    border-right: 1px solid rgba(0, 0, 0,0.2);
+}
+
+/* .dropdown
+{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0);
+    z-index: 4;
+}
+
+header li:hover .dropdown {
+    visibility:visible;
+}
+
+.ddli
+{
+    position: relative;
+}
+
+
+
+.dropdown li a 
+{
+    padding: 10px;
+    text-decoration: none;
+} */
